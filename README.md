@@ -1,7 +1,4 @@
-# erratic_coke
-[Video showcase](https://www.youtube.com/watch?v=OU9ycYdx3Jw&feature=youtu.be)
-
-[FiveM forum post](https://forum.cfx.re/t/release-erratic-coke-a-plane-coke-run/1188641)
+# erratic_coke/dobby_coke
 
 Drug script that has you fly a plane to pick up drugs. Offers a few config options to make it fit into most servers. Comes with an English and German translation.
 
@@ -12,6 +9,7 @@ __IMPORTANT: YOU WILL HAVE TO PROTECT THE SERVER SIDE CODE YOURSELF__
 # Prerequisites:
 - ESX
 - A working database
+- I use old mystic notify, so change the DoHudText to SendAlert in the server.lua if you want to use mythic alerts!
 
 ---
 
@@ -27,7 +25,7 @@ _[Mythic_notify](https://github.com/JayMontana36/mythic_notify)_
 
 _[Progress Bars 1.0](https://forum.cfx.re/t/release-progress-bars-1-0-standalone/526287)_
 
-_[MLO used in the video](https://www.gta5-mods.com/maps/mlo-4x-drug-lab-interiors-sp-fivem)_
+_[Island used in screenshots] (https://forum.cfx.re/t/the-cayo-perico-island-available-for-fivem/1897446)
 
 ---
 
@@ -36,7 +34,7 @@ _[MLO used in the video](https://www.gta5-mods.com/maps/mlo-4x-drug-lab-interior
 1. Download the resource from [GitHub](https://github.com/TTVErraticAlcoholic/erratic_coke)
 2. Unzip it
 3. Put it in your resource folder
-4. Add "start erratic_coke" to your server.cfg
+4. Add "start dobby_coke_run_cayo_perico" to your server.cfg
 5. Run coke.sql
 6. Done
 
@@ -72,7 +70,7 @@ client_scripts {
 	'locales/en.lua',
 	'locales/yourlanguage.lua',
 	'config.lua',
-    	'client/erratic_coke_cl.lua'
+    	'client/dobby_coke_cl.lua'
 }
 
 server_scripts {
@@ -81,6 +79,6 @@ server_scripts {
 	'locales/en.lua',
 	'locales/yourlanguage.lua',
 	'config.lua',
-    	'server/erratic_coke_sv.lua'
+    	'server/dobby_coke_sv.lua'
 }
 
