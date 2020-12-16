@@ -31,7 +31,7 @@ _[Island used in screenshots] (https://forum.cfx.re/t/the-cayo-perico-island-ava
 
 # How to install:
 
-1. Download the resource from [GitHub](https://github.com/TTVErraticAlcoholic/erratic_coke)
+1. Download the resource from [GitHub](https://github.com/reinderhe/dobby_coke_run_cayo_perico)
 2. Unzip it
 3. Put it in your resource folder
 4. Add "start dobby_coke_run_cayo_perico" to your server.cfg
