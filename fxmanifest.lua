@@ -10,6 +10,7 @@ client_scripts {
 	'locales/de.lua',
 	'locales/en.lua',
 	'locales/es.lua',
+	'locales/br.lua',
 	'config.lua',
     'client/dobby_coke_cl.lua'
 }
@@ -19,8 +20,9 @@ server_scripts {
 	'locales/de.lua',
 	'locales/en.lua',
 	'locales/es.lua',
+	'locales/br.lua',
 	'config.lua',
-    'server/dobby_coke_sv.lua'
+    	'server/dobby_coke_sv.lua'
 }
 
 
